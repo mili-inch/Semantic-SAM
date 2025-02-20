@@ -48,10 +48,8 @@ dependencies = [
     "infinibatch==0.1.1",
     "gradio==3.42.0",     
     "openai-whisper",    
+    "detectron2 @ git+https://github.com/MaureenZOU/detectron2-xyz.git",
 ]
-
-[tool.poetry.dependencies]
-detectron2 = {git = "https://github.com/MaureenZOU/detectron2-xyz.git"}
 
 
 [project.urls]
